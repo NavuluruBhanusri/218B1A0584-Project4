@@ -1,0 +1,103 @@
+body,h1,h2,p,ul,li{
+    margin:10;
+    padding:0;
+}
+nav{
+    text-align: right;
+    background-color: #068206;
+    color: white;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: disc;
+}
+nav ul li{
+    text-align: right;
+    display: inline;
+    color: rgb(4, 108, 11);
+}
+nav ul li a{
+    color: rgb(11, 10, 14);
+    text-decoration: dotted;
+   font-size: medium;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    color: rgb(118, 15, 6);
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+nav ul li a:hover{
+    text-align: right;
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(10, 9, 10);
+    color: aliceblue;
+    text-align: center;
+    padding: 10;
+}
+h3{
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+    color: solid black;
+    text-align: center;
+}
+footer{
+    background-color: rgb(10, 9, 10);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+}
+div{
+    background-color: bisque;
+    color: black;
+    padding: 50;
+    height: 200px;
+    width: 92%;
+    text-align: center;
+}
+
+            /*hsl:hue,Saturation,lightness*/
+            .container{
+                margin:0 auto;
+                background: hsl(154,94%,37%);
+                box-sizing: border-box;
+            }
+            /*Smart Phones(potrait and landscape*/
+            @media screen and (min-width:767px) {
+                .container{
+                    width: 100%;
+                    padding: 5px 10px;
+                }   
+            }
+             /*Tablets ,ipads(potrait and landscape*/
+             @media screen and (min-width:768px) and (max-width:1024) {
+                .container{
+                    width: 750px;
+                    padding: 5px 10px;
+                }   
+            }
+            /*Low resolution Desktops and laptops*/
+            @media screen and (min-width:1024px) {
+                .container{
+                    width: 980px;
+                    padding: 5px 10px;
+                }   
+            }
+             /*High resolution Desktops and laptops*/
+             @media screen and (min-width:1280px) {
+                .container{
+                    width: 1200px;
+                    padding: 5px 20px;
+                }   
+            }
+h1{
+    text-align: center;
+}
